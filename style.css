@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+  }
+  
+  .zoom {
+    transition: transform 0.2s;
+  }
+  
+  .zoom:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+  }
+  
+  
+  
+  /* ----------------Scroll-bar-style-------------- */
+  
+  /* width */
+  
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: black; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background:  #555; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #888; 
+  }
+  
+  /* ----------------------------------------------------- */
+  
+  body {
+      margin: 0;
+      padding: 0;
+      color: white;
+      background-color: #191414; 
+    }
+  nav {
+    height: 25%;
+    border-bottom: 1px solid white;
+  }
+  
+  .nav-logo {
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-text {
+    font-weight: 700;
+    color: white;
+  }
+  
+  .nav-link {
+    color: white;
+    font-size: x-large;
+    margin-left: 1rem;
+  }
+  
+  .nav-link:hover {
+    color: white;
+    border: 1px solid green;
+    border-radius: 1rem;
+  }
+  
+  .profile {
+    background-size: cover;
+    border-radius: 50%;
+  }
+  
+  .navbar-toggler-icon {
+    background-color: green;
+    border: 1px solid white;
+    border-radius: 10%;
+  }
+  
+  /* ------------Hero-Section------------------------------- */
+  
+  
+  .hero-section {
+    display: flex;
+  }
+  
+  .hero-section:second-child{
+    margin-left: auto;
+    
+  }
+  .tab1{
+    width: 75vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 25px;
+  }
+  
+  /* <!-- -----Queue-------------------------------------------- --> */
+  
+  .tab2 {
+    border-left: 1px solid white;
+    width: 25vw;
+    height: 180vh;
+  }
+  .heading {
+    display: flex;
+    justify-content: space-between;
+    width: 25vw;
+    height: 5vh;
+    padding: 1rem;
+  
+  }
+  
+  .table {
+    width: 23vw;
+    color: white;
+    margin: 1rem;
+    padding: 1rem;
+  
+  }
+  
+  .f-family {
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  /* <!-- --------Popular-Artist------------------------------------> */
+  
+  .top-artist{
+    color: white;
+    width: 75vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .artist1{
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin-bottom: 1rem;
+  }
+  
+  .list-02{
+    width: 75vw;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    overflow: auto;
+    white-space: nowrap;
+  }
+  .list-02 a {
+    display: inline;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+  }
+  
+  /*           <!-- -----------Latest English Songs--------------------- --> */
+  
+  .list-03{
+    width: 75vw;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    overflow: auto;
+    white-space: nowrap;
+  }
+  
+  .list-03 a {
+    display: inline;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+  }
+  
+  .artist2{
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 1rem;
+  }
+  
+  /*           <!-- -----------Latest Hindi Songs--------------------- --> */
+  
+  
+  .list-04 {
+    width: 75vw;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    overflow: auto;
+    white-space: nowrap;
+  }
+  .list-04 a {
+    display: inline;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+  }
+  
+  /*   <!-- ------Latest release---------------------------> */
+  
+  .song-list {
+    color: white;
+    width: 75vw;
+    height: 50vh;
+    display: flex;
+  }
+  
+  .l-r-songs {
+    width: 35vw;
+    height: 10vh;
+    margin-left: 0;
+    object-fit: cover;
+  }
+  
+    
